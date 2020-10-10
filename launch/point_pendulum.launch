@@ -1,0 +1,11 @@
+<launch>
+	<!-- run the position_control.cpp -->
+
+	<node pkg="px4_command" type="point_pendulum" name="point_pendulum" output="screen">
+
+		<!-- load blacklist, config -->
+		<rosparam command="load" file="$(find px4_command)/config/point_pendulum.yaml" />
+
+
+	</node>
+</launch>

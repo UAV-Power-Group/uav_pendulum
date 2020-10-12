@@ -110,6 +110,8 @@ PX4 Version: 1.8.2
 
     `git clone https://github.com/UAV-Power-Group/uav_pendulum.git`
     
+    `mv uav_pendulum px4_command`
+    
     `cd ..`
     
     `catkin_make`

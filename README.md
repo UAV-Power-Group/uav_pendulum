@@ -108,7 +108,7 @@ PX4 Version: 1.8.2
     
     download from github repository
 
-    `git clone https://github.com/amov-lab/px4_command`
+    `git clone https://github.com/UAV-Power-Group/uav_pendulum.git`
     
     `cd ..`
     
@@ -120,10 +120,3 @@ PX4 Version: 1.8.2
 
   >  MAVROS does translate Aerospace NED frames, used in FCUs to ROS ENU frames and vice-versa. For translate airframe related data we simply apply rotation 180° about ROLL (X) axis. For local we apply 180° about ROLL (X) and 90° about YAW (Z) axes
 
-## Branch
-
-fsc_lab branch is used for fsc_lab quadrotor experiment.
-    
-Use this command to switch to fsc_lab branch
-
-`git checkout fsc_lab`

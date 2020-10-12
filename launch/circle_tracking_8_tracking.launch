@@ -1,0 +1,11 @@
+<launch>
+	<!-- run the position_control.cpp -->
+
+	<node pkg="px4_command" type="circle_tracking_8_tracking" name="circle_tracking_8_tracking" output="screen">
+
+		<!-- load blacklist, config -->
+		<rosparam command="load" file="$(find px4_command)/config/circle_tracking_8_tracking.yaml" />
+
+
+	</node>
+</launch>

@@ -1,0 +1,6 @@
+##半径　m
+radius: 1
+##飞行高度
+height_circle: 1.5
+##飞行时间
+sleep_time: 60.0
